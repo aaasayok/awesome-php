@@ -2,81 +2,81 @@
 A curated list of amazingly awesome PHP libraries, resources and shiny things.
 
 ## Contributing
-Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONTRIBUTING.md) and [CODE-OF-CONDUCT](https://github.com/ziadoz/awesome-php/blob/master/CODE-OF-CONDUCT.md) for details.
 
 ## Table of Contents
 - [Awesome PHP](#awesome-php)
-	- [Dependency Management](#dependency-management)
-	- [Dependency Management Extras](#dependency-management-extras)
-	- [Frameworks](#frameworks)
-	- [Framework Extras](#framework-extras)
-	- [Components](#components)
-	- [Micro Frameworks](#micro-frameworks)
-	- [Micro Framework Extras](#micro-framework-extras)
-	- [Routers](#routers)
-	- [Templating](#templating)
-	- [Static Site Generators](#static-site-generators)
-	- [HTTP](#http)
-	- [Middlewares](#middlewares)
-	- [URL](#url)
-	- [Email](#email)
-	- [Files](#files)
-	- [Streams](#streams)
-	- [Dependency Injection](#dependency-injection)
-	- [Imagery](#imagery)
-	- [Testing](#testing)
-	- [Continuous Integration](#continuous-integration)
-	- [Documentation](#documentation)
-	- [Security](#security)
-	- [Passwords](#passwords)
-	- [Code Analysis](#code-analysis)
-	- [Architectural](#architectural)
-	- [Debugging and Profiling](#debugging-and-profiling)
-	- [Build Tools](#build-tools)
-	- [Task Runners](#task-runners)
-	- [Navigation](#navigation)
-	- [Asset Management](#asset-management)
-	- [Geolocation](#geolocation)
-	- [Date and Time](#date-and-time)
-	- [Event](#event)
-	- [Logging](#logging)
-	- [E-commerce](#e-commerce)
-	- [PDF](#pdf)
-	- [Office](#office)
-	- [Database](#database)
-	- [Migrations](#migrations)
-	- [NoSQL](#nosql)
-	- [Queue](#queue)
-	- [Search](#search)
-	- [Command Line](#command-line)
-	- [Authentication and Authorization](#authentication-and-authorization)
-	- [Markup](#markup)
-	- [Strings](#strings)
-	- [Numbers](#numbers)
-	- [Filtering and Validation](#filtering-and-validation)
-	- [API](#api)
-	- [Caching](#caching)
-	- [Data Structure and Storage](#data-structure-and-storage)
-	- [Notifications](#notifications)
-	- [Deployment](#deployment)
-	- [Internationalisation and Localisation](#internationalisation-and-localisation)
-	- [Third Party APIs](#third-party-apis)
-	- [Extensions](#extensions)
-	- [Miscellaneous](#miscellaneous)
+    - [Dependency Management](#dependency-management)
+    - [Dependency Management Extras](#dependency-management-extras)
+    - [Frameworks](#frameworks)
+    - [Framework Extras](#framework-extras)
+    - [Components](#components)
+    - [Micro Frameworks](#micro-frameworks)
+    - [Micro Framework Extras](#micro-framework-extras)
+    - [Routers](#routers)
+    - [Templating](#templating)
+    - [Static Site Generators](#static-site-generators)
+    - [HTTP](#http)
+    - [Middlewares](#middlewares)
+    - [URL](#url)
+    - [Email](#email)
+    - [Files](#files)
+    - [Streams](#streams)
+    - [Dependency Injection](#dependency-injection)
+    - [Imagery](#imagery)
+    - [Testing](#testing)
+    - [Continuous Integration](#continuous-integration)
+    - [Documentation](#documentation)
+    - [Security](#security)
+    - [Passwords](#passwords)
+    - [Code Analysis](#code-analysis)
+    - [Architectural](#architectural)
+    - [Debugging and Profiling](#debugging-and-profiling)
+    - [Build Tools](#build-tools)
+    - [Task Runners](#task-runners)
+    - [Navigation](#navigation)
+    - [Asset Management](#asset-management)
+    - [Geolocation](#geolocation)
+    - [Date and Time](#date-and-time)
+    - [Event](#event)
+    - [Logging](#logging)
+    - [E-commerce](#e-commerce)
+    - [PDF](#pdf)
+    - [Office](#office)
+    - [Database](#database)
+    - [Migrations](#migrations)
+    - [NoSQL](#nosql)
+    - [Queue](#queue)
+    - [Search](#search)
+    - [Command Line](#command-line)
+    - [Authentication and Authorization](#authentication-and-authorization)
+    - [Markup](#markup)
+    - [Strings](#strings)
+    - [Numbers](#numbers)
+    - [Filtering and Validation](#filtering-and-validation)
+    - [API](#api)
+    - [Caching](#caching)
+    - [Data Structure and Storage](#data-structure-and-storage)
+    - [Notifications](#notifications)
+    - [Deployment](#deployment)
+    - [Internationalisation and Localisation](#internationalisation-and-localisation)
+    - [Third Party APIs](#third-party-apis)
+    - [Extensions](#extensions)
+    - [Miscellaneous](#miscellaneous)
 - [Software](#software)
-	- [PHP Installation](#php-installation)
-	- [Development Environment](#development-environment)
-	- [Virtual Machines](#virtual-machines)
-	- [Integrated Development Environment](#integrated-development-environment)
-	- [Web Applications](#web-applications)
-	- [Infrastructure](#infrastructure)
+    - [PHP Installation](#php-installation)
+    - [Development Environment](#development-environment)
+    - [Virtual Machines](#virtual-machines)
+    - [Integrated Development Environment](#integrated-development-environment)
+    - [Web Applications](#web-applications)
+    - [Infrastructure](#infrastructure)
 - [Resources](#resources)
-	- [PHP Websites](#php-websites)
-	- [Other Websites](#other-websites)
-	- [PHP Books](#php-books)
-	- [PHP Videos](#php-videos)
-	- [PHP Reading](#php-reading)
-	- [PHP Internals Reading](#php-internals-reading)
+    - [PHP Websites](#php-websites)
+    - [Other Websites](#other-websites)
+    - [PHP Books](#php-books)
+    - [PHP Videos](#php-videos)
+    - [PHP Reading](#php-reading)
+    - [PHP Internals Reading](#php-internals-reading)
 - [Contributing](#contributing)
 
 ## Dependency Management
@@ -191,8 +191,8 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 *Libraries for parsing URLs.*
 
 * [Purl](https://github.com/jwage/purl) - A URL manipulation library.
+* [Uri](https://github.com/thephpleague/uri) - Another URL manipulation library.
 * [PHP Domain Parser](https://github.com/jeremykendall/php-domain-parser) - A domain suffix parser library.
-* [Url](https://github.com/thephpleague/url) - A simple URL manipulation library.
 
 ## Email
 *Libraries for sending and parsing email.*
@@ -583,7 +583,7 @@ Libraries to help manage database schemas and migrations.
 *Libraries for filtering and validating data.*
 
 * [Filterus](https://github.com/ircmaxell/filterus) - A simple PHP filtering library.
-* [Respect Validate](https://github.com/Respect/Validation) - A simple validation library.
+* [Respect Validation](https://github.com/Respect/Validation) - A simple validation library.
 * [Valitron](https://github.com/vlucas/valitron) - Another validation library.
 * [Cake Validation](https://github.com/cakephp/validation) - Another validation library (CP).
 * [Upload](https://github.com/codeguy/Upload) - A library for handling file uploads and validation.
@@ -758,7 +758,7 @@ Libraries to help manage database schemas and migrations.
 * [3V4L](http://3v4l.org/) - An online PHP & HHVM shell.
 * [DBV](http://dbv.vizuina.com/) - A database version control application.
 * [PHP Queue](https://github.com/CoderKungfu/php-queue) - An application for managing queueing backends.
-* [Composer as a Service](http://composer.borreli.com/) - A tool for downloading Composer packages as a zip file.
+* [Composer as a Service](https://composer.borreli.com/) - A tool for downloading Composer packages as a zip file.
 * [MailCatcher](https://github.com/sj26/mailcatcher) - A web tool for capturing and viewing emails.
 * [Cachet](https://github.com/cachethq/cachet) - The open source status page system.
 
